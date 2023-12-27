@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free lancer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script
+      src="https://kit.fontawesome.com/ec912a53a4.js"
+      crossorigin="anonymous"
+    ></script>
+ 
+</head>
+<body>
+   <nav id="main-nav" class="navbar navbar-expand-lg fixed-top navbar-dark">
+      <div class="container">
+         <a href="#" id="nav-start"  class="navbar-brand"><b>START BOOTSTRAP</b></a>
+          <!-- <button id="menu-icon" class="navbar-toggler py-2" type="button" 
+          data-bs-toggle="collapse" data-bs-target="#navbar-collapse">
+          <div class="d-flex  text-center justify-content-center text-white"><div class="fs-6 fw-normal pt-1 pe-1">MENU</div> <i class="fa-solid fa-bars fa-sm pt-3 " ></i></div>
+          </button> -->
+          <button class="navbar-toggler  text-light border-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" id="menu-icon">
+            <div class="d-flex"> <h6 class="fs-6 fw-normal pe-1 pt-1">MENU</h6>
+            <i class="fa-solid fa-bars fa-sm pt-3 " ></i></div>
+     </button>
+          <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="navbar-nav ms-auto pt-3 pt-lg-0">
+            <li class="nav-item ">
+             <a href="#portmenu" id="cursor"  class="nav-link text-white"><b>PORTFOLIO</b></a>
+            </li>
+            <li class="nav-item">
+             <a href="#man" id="cursor" class="nav-link text-white"><b>ABOUT</b></a>
+            </li>
+            <li class="nav-item">
+             <a href="#contact" id="cursor" class="nav-link text-white"><b>CONTACT</b></a>
+            </li>
+            </ul>
+          </div>
+        </div>
+   </nav>
+    <div id="man-colour" class=" text-center align-item-center pt-5 ">
+        <img class="text-center mt-5 pt-5 " src="avataaars.svg" alt="" width="250px" height="250px">
+        <div class="mt-3 text-white">
+         
+           <h1 class="text-light ms-0 ms-lg-5 mt-4 me-0 me-lg-5 fw-bold display-2">START BOOTSTRAP</h1>
+        </div>
+        <div id="star" class="container mt-3 justify-content-center d-flex">
+            <div class="m-3 border-top border-4 border-white" style="width: 130px;"></div>
+            <i  class='bx bxs-star text-white '></i>
+            <div class="m-3 border-top border-4 border-white" style="width: 130px;"></div>
+        </div>
+        <div class="text-white mt-3 pb-5" style="font-size:21px">
+            <p>Graphic Artist - Web Designer - Illustrator</p>
+        </div>
+    </div>
+    <div class="text-center align-item-center">
+        <div class="mt-5">
+          <div class="pt-md-2" id="portmenu"></div>
+            <h1 class="pt-5 display-3  "  style="font: size 2.25rem;"><b>PORTFOLIO</b></h1>
+        </div>
+        <div id="star" class="mt-3 justify-content-center d-flex">
+             <div id="bordercolour" class="container m-3 border-top border-4 border-black" style="width: 130px;"></div>
+             <i  class='bx bxs-star'></i>
+             <div id="bordercolour"  class="m-3 border-top border-4 border-black" style="width: 130px;"></div>
+        </div>
+    </div>
+    <div class="container mt-3">
+        <div  class="row mb-5">
+            <div class="col-md-6 col-lg-4 p-3">
+                <div id="cabincontainer">
+                   <img src="cabin.png" alt="" class="rounded w-100 h-100">
+                  <div id="cabincont">
+                    <div id="cabintext"><i class='bx bx-plus mt-lg-4  pt-5 text-white' data-bs-toggle="modal" data-bs-target="#modalcabin"></i></div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 p-3">
+                <div id="cabincontainer">
+                 <img src="cake.png" alt="" class="rounded w-100 h-100" >
+                   <div id="cabincont" >
+                      <div id="cabintext"><i class='bx bx-plus mt-lg-4  pt-5 text-white' data-bs-toggle="modal"
+                        data-bs-target="#modalcake"></i></div>
+                   </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 p-3">
+                <div id="cabincontainer">
+                 <img src="circus.png" alt="" class="rounded w-100 h-100" >
+                  <div id="cabincont">
+                    <div id="cabintext"><i class='bx bx-plus mt-lg-4  pt-5 text-white' data-bs-toggle="modal"
+                      data-bs-target="#modaltent"></i></div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 p-3">
+                <div id="cabincontainer">
+                  <img src="game.png" alt="" class="rounded w-100 h-100">
+                   <div id="cabincont">
+                     <div id="cabintext"><i class='bx bx-plus mt-lg-4  pt-5 text-white' data-bs-toggle="modal"
+                      data-bs-target="#modalgame"></i></div>
+                   </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 p-3">
+                <div id="cabincontainer">
+                 <img src="safe.png" alt="" class="rounded w-100 h-100" >
+                  <div id="cabincont">
+                    <div id="cabintext"><i class='bx bx-plus mt-lg-4  pt-5 text-white' data-bs-toggle="modal"
+                      data-bs-target="#modalsafe"></i></div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 p-3">
+                <div id="cabincontainer">
+                  <img src="submarine.png" alt=""class="rounded w-100 h-100">
+                 <div id="cabincont">
+                    <div id="cabintext"><i class='bx bx-plus mt-lg-4  pt-5 text-white' data-bs-toggle="modal"
+                      data-bs-target="#modalsubmarine"></i></div>
+                 </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- model 1-->
+    <div class="modal fade" id="modalcabin">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+              <button class="btn btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="text-center">
+              <h1 id="bordercolour"><b>LOG CABIN</b></h1>
+              <div id="star" class="mt-3 justify-content-center d-flex">
+                <div id="bordercolour" class="container m-3 border-top border-4 border-black" style="width: 130px;"></div>
+                <i  class='bx bxs-star'></i>
+                <div id="bordercolour"  class="m-3 border-top border-4 border-black" style="width: 130px;"></div>
+              </div>
+              <div class="modal-body">
+                <div class="container row justify-content-center ">
+                   <div class="col-lg-8 mt-2">
+                      <img src="cabin.png" alt="" class="rounded w-100 h-100">
+                   </div>
+                    <div class=" p-lg-3 col-lg-8">
+                     <p class="pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                    </div>
+                  <div>
+                    <button class="btn-colour border-0 p-2 px-3 rounded text-white" data-bs-dismiss="modal">x  close window</button>
+                  </div>
+                </div> 
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- model 2 -->
+    <div class="modal fade" id="modalcake">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+              <button class="btn btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="text-center">
+              <h1 id="bordercolour"><B>TASTY CAKE</B></h1>
+              <div id="star" class="mt-3 justify-content-center d-flex">
+                <div id="bordercolour" class="container m-3 border-top border-4 border-black" style="width: 130px;"></div>
+                <i  class='bx bxs-star'></i>
+                <div id="bordercolour"  class="m-3 border-top border-4 border-black" style="width: 130px;"></div>
+              </div>
+              <div class="modal-body">
+                <div class="container row justify-content-center ">
+                   <div class="col-lg-8 mt-2">
+                      <img src="cake.png" alt="" class="rounded w-100 h-100">
+                   </div>
+                    <div class=" p-lg-3 col-lg-8">
+                     <p class="pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                    </div>
+                  <div>
+                    <button class="btn-colour border-0 p-2 px-3 rounded text-white" data-bs-dismiss="modal">x  close window</button>
+                  </div>
+                </div> 
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal 3 -->
+    <div class="modal fade" id="modaltent">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+              <button class="btn btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="text-center">
+              <h1 id="bordercolour"><b>CIRCUS TENT</b></h1>
+              <div id="star" class="mt-3 justify-content-center d-flex">
+                <div id="bordercolour" class="container m-3 border-top border-4 border-black" style="width: 130px;"></div>
+                <i  class='bx bxs-star'></i>
+                <div id="bordercolour"  class="m-3 border-top border-4 border-black" style="width: 130px;"></div>
+              </div>
+              <div class="modal-body">
+                <div class="container row justify-content-center ">
+                   <div class="col-lg-8 mt-2">
+                      <img src="circus.png" alt="" class="rounded w-100 h-100">
+                   </div>
+                    <div class=" p-lg-3 col-lg-8">
+                     <p class="pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                    </div>
+                  <div>
+                    <button class="btn-colour border-0 p-2 px-3 rounded text-white" data-bs-dismiss="modal">x close window</button>
+                  </div>
+                </div> 
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- modal 4 -->
+<div class="modal fade" id="modalgame">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header border-0">
+          <button class="btn btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="text-center">
+          <h1 id="bordercolour"><b>CONTROLLER</b></h1>
+          <div id="star" class="mt-3 justify-content-center d-flex">
+            <div id="bordercolour" class="container m-3 border-top border-4 border-black" style="width: 130px;"></div>
+            <i  class='bx bxs-star'></i>
+            <div id="bordercolour"  class="m-3 border-top border-4 border-black" style="width: 130px;"></div>
+          </div>
+          <div class="modal-body">
+            <div class="container row justify-content-center ">
+               <div class="col-lg-8 mt-2">
+                  <img src="game.png" alt="" class="rounded w-100 h-100">
+               </div>
+                <div class=" p-lg-3 col-lg-8">
+                 <p class="pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                </div>
+              <div>
+                <button class="btn-colour border-0 p-2 px-3 rounded text-white" data-bs-dismiss="modal">x  close window</button>
+              </div>
+            </div> 
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal 5 -->
+<div class="modal fade" id="modalsafe">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header border-0">
+          <button class="btn btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="text-center">
+          <h1 id="bordercolour"><b>LOCKED SAFE</b></h1>
+          <div id="star" class="mt-3 justify-content-center d-flex">
+            <div id="bordercolour" class="container m-3 border-top border-4 border-black" style="width: 130px;"></div>
+            <i  class='bx bxs-star'></i>
+            <div id="bordercolour"  class="m-3 border-top border-4 border-black" style="width: 130px;"></div>
+          </div>
+          <div class="modal-body">
+            <div class="container row justify-content-center ">
+               <div class="col-lg-8 mt-2">
+                  <img src="safe.png" alt="" class="rounded w-100 h-100">
+               </div>
+                <div class=" p-lg-3 col-lg-8">
+                 <p class="pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                </div>
+              <div>
+                <button class="btn-colour border-0 p-2 px-3 rounded text-white" data-bs-dismiss="modal">x  close window</button>
+              </div>
+            </div> 
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal 6 -->
+<div class="modal fade" id="modalsubmarine">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header border-0">
+          <button class="btn btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="text-center">
+          <h1 id="bordercolour"><b>SUBMARINE</b></h1>
+          <div id="star" class="mt-3 justify-content-center d-flex">
+            <div id="bordercolour" class="container m-3 border-top border-4 border-black" style="width: 130px;"></div>
+            <i  class='bx bxs-star'></i>
+            <div id="bordercolour"  class="m-3 border-top border-4 border-black" style="width: 130px;"></div>
+          </div>
+          <div class="modal-body">
+            <div class="container row justify-content-center ">
+               <div class="col-lg-8 mt-2">
+                  <img src="submarine.png" alt="" class="rounded w-100 h-100">
+               </div>
+                <div class=" p-lg-3 col-lg-8">
+                 <p class="pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                </div>
+              <div>
+                <button class="btn-colour border-0 p-2 px-3 rounded text-white" data-bs-dismiss="modal">x  close window</button>
+              </div>
+            </div> 
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pt-md-1" id="man"></div>
+<div   class=" mt-5 text-center align-item-center container-fluid man">
+      <div class="pt-5 text-white">
+            <h1 class="fw-bold p-2 display-3">ABOUT</h1>
+        </div>
+        <div id="star" class="mt-3 justify-content-center d-flex ">
+            <div class="container m-3 border-top border-4 border-white" style="width: 130px;"></div>
+            <i  class='bx bxs-star text-white'></i>
+            <div class="container m-3 border-top border-4 border-white" style="width: 130px;"></div>
+        </div>
+        <div class="row mt-3 p-4">
+            <div class="col-lg-4 col-md-0 ms-auto text-white">
+              <p id="text-size" class="text-start"><b>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</b></p>
+            </div>
+            <div class="col-lg-4 col-md-0 me-auto text-white">
+              <p id="text-size" class="text-start"><b>You can create your own custom 
+                avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</b></p>
+            </div>
+            <div class="mt-3 mb-5">
+                <a class="btn btn-outline-light p-3 fs-5  border-2" href="#"><i class="fa-solid fa-download"></i>   Free download!</a>
+            </div>
+        </div>
+</div>    
+<div id="contact"></div>
+  <div  class="text-center align-item-center ">
+        <div class="mt-3">
+            <h1 class="contact pt-5" style="font-size:55px">CONTACT ME</h1>
+        </div>
+        <div id="star" class="mt-3 justify-content-center d-flex">
+             <div id="bordercolour" class="container m-3 border-top border-4 border-black" style="width: 130px;"></div>
+             <i  class='bx bxs-star'></i>
+             <div id="bordercolour"  class="m-3 border-top border-4 border-black" style="width: 130px;"></div>
+        </div>
+  </div>
+  <div class="container mt-3">
+    <form action="" class="row justify-content-center">
+      <div class="form-floating mb-3 mt-3 col-lg-7 ">
+        <input  type="text" class="form-control border-top-0    border-start-0 border-end-0  rounded-0 " id="Full name"
+        placeholder="enter name" name="name">
+        <label for="name" class="text-secondary">Full name</label>
+      </div>
+      <div class="form-floating mb-3 mt-3 col-lg-7 ">
+        <input type="text" class="form-control border-top-0 border-start-0 border-end-0 rounded-0" id="Email address"
+        placeholder="email address" name="email">
+        <label for="email">Email address</label>
+      </div>
+      <div class="form-floating mb-3 mt-3 col-lg-7 ">
+        <input type="text" class="form-control border-top-0 border-start-0 border-end-0 rounded-0" id="Phone number"
+        placeholder="Phone number" name="phone number">
+        <label for="phone number">Phone number</label>
+      </div>
+      <div class="form-floating mb-5 mt-3 col-lg-7 ">
+       <textarea class="form-control border-top-0 border-start-0 border-end-0 rounded-0" id="Message" type="text" placeholder="enter your message" style="height: 150px;" data-sb-validations="required" data-sb-can-submit="no"></textarea>
+        <label for="Message">Message</label>
+      </div>
+      <div class="container col-lg-7">
+       <button id="btn-send" class="btn btn-success fs-5 border-light p-2 px-3" type="button">Send</button>
+      </div>
+    </form>
+  </div>
+  <footer class="footer text-white mt-5">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-4">
+          <h4 class="mt-5">LOCATION</h4>
+          <p class="mt-4 fs-5">2215 John Daniel Drive <br>Clark, MO 65243</p>
+        </div>
+        <div class="col-lg-4">
+          <h4 class="mt-5">AROUND THE WEB</h4>
+          <div  class="fs-2 mt-3">
+          <i class='bx bxl-facebook border rounded-circle p-1' id="website"></i>
+          <i class='bx bxl-twitter border rounded-circle  p-1' id="website" ></i>
+          <i class='bx bxl-linkedin border rounded-circle p-1'id="website" ></i>
+          <i class='bx bxl-dribbble border rounded-circle p-1' id="website" ></i>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-5">
+          <h4 class="mt-5">ABOUT FREELANCER</h4>
+          <p class="mt-3 fs-5">Freelance is a free to use, MIT licensed <br> Bootstrap theme created by <br><a class="foo" href="">Start Bootstrap.</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="copyright  text-center text-white">
+    <div class="container-fluid  bg-dark pt-3 pb-3 text-center"><small>Copyright &copy; Your Website 2023</small></div>
+</div>
+  
+</body>
+</html>

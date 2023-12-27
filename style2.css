@@ -1,0 +1,12 @@
+.model-content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.model-header{
+    display: flex;
+}
+.modal-body{
+    position: relative;
+}
